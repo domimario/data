@@ -1,0 +1,116 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "name": "Team Alpha",
+        "championship_id": 1,
+        "best_player": {
+          "id": 1,
+          "name": "John",
+          "surname": "Doe",
+          "number": 10,
+          "nationality_id": 1,
+          "goals": [
+            {"id": 1, "match_type": "home", "count": 3},
+            {"id": 2, "match_type": "away", "count": 2}
+          ],
+          "trophies": [
+            {"id": 1, "name": "Premier League Trophy", "year": 2023},
+            {"id": 2, "name": "FA Cup", "year": 2024},
+            {"id": 3, "name": "Champions League Trophy", "year": 2025}
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Team Bravo",
+        "championship_id": 2,
+        "best_player": {
+          "id": 5,
+          "name": "Alex",
+          "surname": "Turner",
+          "number": 8,
+          "nationality_id": 2,
+          "goals": [
+            {"id": 5, "match_type": "home", "count": 4},
+            {"id": 6, "match_type": "away", "count": 3}
+          ],
+          "trophies": [
+            {"id": 4, "name": "La Liga Trophy", "year": 2023},
+            {"id": 5, "name": "Copa del Rey", "year": 2024}
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "Team Charlie",
+        "championship_id": 1,
+        "best_player": {
+          "id": 9,
+          "name": "Emma",
+          "surname": "Smith",
+          "number": 7,
+          "nationality_id": 1,
+          "goals": [
+            {"id": 9, "match_type": "home", "count": 5},
+            {"id": 10, "match_type": "away", "count": 2}
+          ],
+          "trophies": [
+            {"id": 6, "name": "Serie A Trophy", "year": 2023},
+            {"id": 7, "name": "Coppa Italia", "year": 2024}
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Team Delta",
+        "championship_id": 2,
+        "best_player": {
+          "id": 13,
+          "name": "Oliver",
+          "surname": "White",
+          "number": 11,
+          "nationality_id": 3,
+          "goals": [
+            {"id": 13, "match_type": "home", "count": 3},
+            {"id": 14, "match_type": "away", "count": 4}
+          ],
+          "trophies": [
+            {"id": 8, "name": "Eredivisie Trophy", "year": 2023},
+            {"id": 9, "name": "KNVB Cup", "year": 2024}
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Team Echo",
+        "championship_id": 3,
+        "best_player": {
+          "id": 17,
+          "name": "Sophia",
+          "surname": "Brown",
+          "number": 9,
+          "nationality_id": 2,
+          "goals": [
+            {"id": 17, "match_type": "home", "count": 2},
+            {"id": 18, "match_type": "away", "count": 5}
+          ],
+          "trophies": [
+            {"id": 10, "name": "Ligue 1 Trophy", "year": 2023},
+            {"id": 11, "name": "Coupe de France", "year": 2024}
+          ]
+        }
+      }
+    ],
+    "championships": [
+      {"id": 1, "name": "Premier League", "nationality_id": 1},
+      {"id": 2, "name": "La Liga", "nationality_id": 2},
+      {"id": 3, "name": "Bundesliga", "nationality_id": 3}
+    ],
+    "nationalities": [
+      {"id": 1, "name": "Country A"},
+      {"id": 2, "name": "Country B"},
+      {"id": 3, "name": "Country C"}
+    ]
+  }
+  
