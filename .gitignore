@@ -1,0 +1,13 @@
+# .gitignore
+
+# Virtual Environment
+venv/
+
+# Python bytecode
+__pycache__/
+
+# IDE settings
+.idea/
+
+# Database file
+*.db
